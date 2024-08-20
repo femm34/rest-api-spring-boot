@@ -3,10 +3,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.io.Serializable;
 
@@ -14,6 +11,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor // void constructor
 @ToString
+@Builder
 @Entity
 public class Employee implements Serializable {
     @Id
