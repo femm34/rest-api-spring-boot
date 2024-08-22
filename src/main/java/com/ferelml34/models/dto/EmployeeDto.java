@@ -10,7 +10,7 @@ import java.io.Serializable;
 @ToString
 @Builder
 public class EmployeeDto implements Serializable {
-    private Integer employeeId;
+//    private Integer employeeId;
     private String name;
     private String email;
 }
